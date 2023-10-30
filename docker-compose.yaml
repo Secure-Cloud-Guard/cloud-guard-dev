@@ -11,5 +11,4 @@ services:
     ports:
       - 4200:4200
     volumes:
-      - ./cloud-guard-client/src:/app/src
-      - ./cloud-guard-client/node_modules:/app/node_modules
+      - ./cloud-guard-client/:/app
